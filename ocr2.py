@@ -5,7 +5,7 @@ import os
 
  
 PDF_file = "table.pdf"
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+
 pages = convert_from_path(PDF_file, 500) 
 image_counter = 0
 outfile = "out1_text.txt"

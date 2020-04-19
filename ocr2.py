@@ -4,7 +4,7 @@ from pdf2image import convert_from_path
 import os 
 
  
-PDF_file = "table.pdf"
+PDF_file = "py.pdf"
 
 pages = convert_from_path(PDF_file, 500) 
 image_counter = 0
